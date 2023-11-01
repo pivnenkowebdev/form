@@ -1,0 +1,60 @@
+input[type ='text'],
+input[type ='email']{
+   width: 300px;
+   height: 40px;
+   padding-right: 10px;
+   padding-left: 10px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+input[type='submit']{
+   padding-right: 100px;
+   padding-left: 100px;
+   height: 40px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   transition: box-shadow 300ms, background-color 300ms, color 300ms;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+input[type='submit']:hover{
+   box-shadow: 0px 0px 5px 3px #fff;
+   transition: box-shadow 300ms, background-color 300ms, color 300ms;
+   background-color: #bdb5b5;
+   color: #fff;
+}
+
+input[type='submit']:active{
+   transform: translateY(1px);
+   box-shadow: 0px 0px 5px 3px #8d8989;
+   }
+
+textarea{
+   width: 300px;
+   padding: 10px;
+   border-radius: 5px;
+   resize: none;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+textarea:focus,
+input:focus{
+   box-shadow: 0px 0px 5px 3px #fff;
+}
+
+input::placeholder,
+textarea::placeholder{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+label.error{
+   display: block;
+   font-weight: 500;
+   color: rgb(117, 57, 57);
+}
